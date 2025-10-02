@@ -5,7 +5,7 @@ Author: Mohit Kumawat
 Date: 2025-10-02
 """
 
-def reverse_string(s: str) -> str:
+def reverse_str(s: str) -> str:
 
     reversed_string: str = ""
     # prepend each charater to the string 
@@ -13,12 +13,12 @@ def reverse_string(s: str) -> str:
         reversed_string = char + reversed_string
     print(f"Reverse {s} :- {reversed_string}")
 
-    return reverse_string
+    return reversed_string
 
 def main() -> None:
-    reverse_string("Hello World")
-    reverse_string("Coffee")
-    reverse_string("stressed")
+    reverse_str("Hello World")
+    reverse_str("Coffee")
+    reverse_str("stressed")
 
 if __name__ == '__main__':
     main()
